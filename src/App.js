@@ -7,6 +7,7 @@ import Steps from './container/Steps/Steps';
 import Products from './container/Products/Products';
 import Questions from './container/FAQs/Questions';
 import Contact from './container/Contacts/Contact';
+import Footer from './components/Footer/Footer';
 const App = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const App = () => {
       <Products/>
       <Questions/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

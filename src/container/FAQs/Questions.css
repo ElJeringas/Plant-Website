@@ -16,7 +16,7 @@
     background-color: var(--container-color);
     border-radius: .25rem;
     overflow: hidden; /* Ensure content is hidden when collapsed */
-    transition: max-height 0.4s ease, background-color 0.4s ease;
+    transition: max-height 0.5s ease, background-color 0.5s ease;
 }
 
 .questions__item-title {
