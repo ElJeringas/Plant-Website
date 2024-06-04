@@ -13,26 +13,25 @@ const Footer = () => {
             <div className='footer__content'>
                 <i className='footer__logo-icon'><GiMonsteraLeaf size={22}/> An Anasha</i>
                 <h3 className='footer__title'>
-                    Sbuscribe to our newsletter<br/>to stay update
+                    Suscribete<br/>para conocer mas
                 </h3>
                 <div className='footer__subscribe'>
                     <input type='email' placeholder='Your email' className='footer__input'/>
                     <button className='button button--flex footer__button'>
-                        Subscribe
+                        Suscribirse
                         <i className='button__icon'><IoIosSend/></i>
                     </button>
                 </div>
             </div>
             <div className='footer__content'>
-                <h3 className='footer__title'>Our Address</h3>
+                <h3 className='footer__title'>Estamos ubicados en</h3>
                 <ul className='footer__data'>
-                    <li className='footer__information'>1234 Loja</li>
-                    <li className='footer__information'>Ipsum ad adipisicing adipisicing </li>
-                    <li className='footer__information'>123-123-123</li>
+                    <li className='footer__information'>93-58 Manuel Vivanco & Pedro Falconi</li>
+                    <li className='footer__information'>Loja - Ecuador</li>
                 </ul>
             </div>
-            <div className='footer__content'>
-                <h3 className='footer__title'>contact Us</h3>
+{/*             <div className='footer__content'>
+                <h3 className='footer__title'>Contacos</h3>
                 <ul className='footer__data'>
                     <li className='footer__information'>+5939778889</li>
                     <div className='footer__social'>
@@ -47,7 +46,7 @@ const Footer = () => {
                         </a>
                     </div>
                 </ul>
-            </div>
+            </div> */}
         </div>
         <p className='footer__copy'>©️ 2024 Digital Canvas</p>
     </footer>

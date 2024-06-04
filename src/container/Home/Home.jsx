@@ -12,16 +12,16 @@ const Home = () => {
 
             <div className='home__data'>
                 <h1 className='home__title'>
-                    Commodo aliquip ce.
+                    Espacios Verdes.
                 </h1>
                 <p className='home__description'>
-                    Lorem aliquip ut excepteur in occaecat.
+                    Que te conectan a lo natural.
                 </p>
 
-                <a href='about' className='button button--flex'>Explore <MdKeyboardDoubleArrowDown className='button__icon' size={27}/></a>
+                <a href='about' className='button button--flex'>Conocenos <MdKeyboardDoubleArrowDown className='button__icon' size={27}/></a>
             </div>
             <div className='home__social'>
-                <span className='home__social-follow'>Follow Us</span>
+                <span className='home__social-follow'>Sigenos en</span>
                 <div className='home__social-links'>
                     <a href='#' target='_blank' className='home__social-link'>
                         <FaFacebook size={20}/>

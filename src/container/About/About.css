@@ -10,6 +10,12 @@
     margin-bottom: var(--mb-1);
 }
 
+.about__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about_description{
     margin-bottom: var(--mb-2);
 }

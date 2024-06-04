@@ -25,16 +25,16 @@ const NavBar = () => {
                         <a href='#' className='nav__link'>Home</a>
                     </li>
                     <li>
-                        <a href='#' className='nav__link'>About</a>
+                        <a href='#' className='nav__link'>Acerca de Nosotros</a>
                     </li>
                     <li>
-                        <a href='#' className='nav__link'>Products</a>
+                        <a href='#' className='nav__link'>Productos</a>
                     </li>
                     <li>
                         <a href='#' className='nav__link'>FAQs</a>
                     </li>
                     <li>
-                        <a href='#' className='nav__link'>Contacts</a>
+                        <a href='#' className='nav__link'>Contactos</a>
                     </li>
                 </ul>
                 <div className='nav__close' id='nav-close'>

@@ -14,15 +14,15 @@ const Questions = () => {
     };
 
     const questions = [
-        "Excepteur id consequat aliquip laboris ?",
-        "Excepteur id consequat aliquip laboris ?",
-        "Excepteur id consequat aliquip laboris ?",
+        "Donde estan ubicados ?",
+        "Cuantas veces debo regar mi planta ?",
+        "Cuantas horas de sol debo darles ?",
     ];
 
     return (
         <section className='questions section' id='faqs'>
             <h2 className='section__title-center question__title container'>
-                Some common questions<br/>Were often asked
+                Algunas preguntas<br/>Que usualmenmte nos hacen
             </h2>
             <div className='questions__container container grid'>
                 <div className='questions__group'>

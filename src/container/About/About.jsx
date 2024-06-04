@@ -10,27 +10,27 @@ const About = () => {
             <img src={aboutImg} alt='about' className='about__img'/>
             <div className='section__title about__title'>
                 <h2 className='section__title about__title'>
-                    Veniam dolor velit consequat qui irure 
+                    Reconecta<br/> con tu lado mas natural
                 </h2>
                 <p className='about__description'>
-                    Tempor fugiat ea qui eu enim mollit officia excepteur dolor fugiat velit.
+                    Mira las opeciones que tenemos para ti.
                 </p>
                 <div className='about__details'>
                     <p className='about__details-description'>
-                        <FaSquareCheck className='about__details-icon'/>
-                        Fugiat ea cillum laborum laborum commodo culpa.
+                        <i className='about__icon'><FaSquareCheck className='about__details-icon'/></i>
+                        Decoracion de espacios.
                     </p>
                     <p className='about__details-description'>
-                        <FaSquareCheck className='about__details-icon'/>
-                        Fugiat ea cillum laborum laborum commodo culpa.
+                        <i className='about__icon'><FaSquareCheck className='about__details-icon'/></i>
+                        Tips e ideas para ti.
                     </p>
                     <p className='about__details-description'>
-                        <FaSquareCheck className='about__details-icon'/>
-                        Fugiat ea cillum laborum laborum commodo culpa.
+                        <i className='about__icon'><FaSquareCheck className='about__details-icon'/></i>
+                        Asesoramiento y proformas.
                     </p>
                     <p className='about__details-description'>
-                        <FaSquareCheck className='about__details-icon'/>
-                        Fugiat ea cillum laborum laborum commodo culpa.
+                        <i className='about__icon'><FaSquareCheck className='about__details-icon'/></i>
+                        Plantas de todo tipo.
                     </p>
                 </div>
             </div>
