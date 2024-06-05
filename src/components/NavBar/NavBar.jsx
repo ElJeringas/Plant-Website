@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <header className='header' id='header'>
         <nav className='nav container'>
-            <a href='#' className='nav__logo'>
+            <a href='#home' className='nav__logo'>
                 <i className='nav__logo-icon'><GiThreeLeaves /> An Anasha</i>
             </a>
             <div className='nav__toggle' id='nav-toggle'>
@@ -22,19 +22,19 @@ const NavBar = () => {
                 <div className={`nav__menu  ${toggleMenu ? 'show-menu' : ''}`} id='nav-menu'>
                 <ul className='nav__list'>
                     <li>
-                        <a href='#' className='nav__link'>Home</a>
+                        <a href='#home' className='nav__link' onClick={() => setToggleMenu(false)}>Home</a>
                     </li>
                     <li>
-                        <a href='#' className='nav__link'>Acerca de Nosotros</a>
+                        <a href='#about' className='nav__link' onClick={() => setToggleMenu(false)}>Acerca de Nosotros</a>
                     </li>
                     <li>
-                        <a href='#' className='nav__link'>Productos</a>
+                        <a href='#products' className='nav__link' onClick={() => setToggleMenu(false)}>Productos</a>
                     </li>
                     <li>
-                        <a href='#' className='nav__link'>FAQs</a>
+                        <a href='#faqs' className='nav__link' onClick={() => setToggleMenu(false)}>FAQs</a>
                     </li>
                     <li>
-                        <a href='#' className='nav__link'>Contactos</a>
+                        <a href='#contact' className='nav__link' onClick={() => setToggleMenu(false)}>Contactos</a>
                     </li>
                 </ul>
                 <div className='nav__close' id='nav-close'>

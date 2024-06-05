@@ -34,7 +34,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <a href='#' className='button--link button--flex'><FaShoppingBasket className='button__icon'/>Shop</a>
+            <a href='#products' className='button--link button--flex'><FaShoppingBasket className='button__icon'/>Shop</a>
         </div>
     </section>
   )

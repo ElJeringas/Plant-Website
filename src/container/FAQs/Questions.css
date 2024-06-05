@@ -68,3 +68,25 @@
 .questions__item:hover {
     box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, .15);
 }
+
+@media screen and (min-width:992px) {
+    .questions__container{
+        padding: 1rem 0 4rem;
+    }
+
+    .questions__item-title{
+        text-align: inherit;
+    }
+
+    .questions__group{
+        row-gap: 2rem;
+    }
+
+    .questions__header{
+        padding: 1rem;
+    }
+
+/*     .questions__description{
+        padding: 0 3.5rem;
+    } */
+}

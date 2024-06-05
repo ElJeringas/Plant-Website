@@ -26,3 +26,41 @@
 .main{
   overflow: hidden;
 }
+
+@media screen and (max-width:320px) {
+  .container{
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+}
+
+@media screen and (min-width:767px) {
+  body{
+    margin: 0;
+  }
+
+  .home__container,
+  .about__container,
+  /* .questions__container, */
+  .contact__container,
+  .footer__container{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (min-width:992px) {
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section{
+    padding: 8rem 9 1rem;
+  }
+
+  .section__title,
+  .section__title-center{
+    font-size: var(--h1-font-size);
+  }
+}

@@ -1,3 +1,6 @@
+.footer{
+    background-color: #f8f9fc;
+}
 .footer__container{
     row-gap: 3rem;
 }
@@ -70,3 +73,30 @@
     color: var(--text-color-light);
     margin: 2rem 0 1rem;
 }
+
+@media screen and (min-width:576px){
+    .footer__subscribe{
+        width: 400px;
+    }
+}
+
+
+@media screen and (min-width:767px) {
+    .footer__container{
+        column-gap: 3rem;
+    }
+
+    .footer__subscribe{
+        width: initial;
+    }
+  }
+
+  @media screen and (min-width:992px) {
+    .footer__logo{
+        font-size: var(--h3-font-size);
+    }
+
+    .footer__container{
+        grid-template-columns:1.5fr .5fr;
+    }
+  }

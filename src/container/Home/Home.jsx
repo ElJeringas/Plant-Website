@@ -18,7 +18,7 @@ const Home = () => {
                     Que te conectan a lo natural.
                 </p>
 
-                <a href='about' className='button button--flex'>Conocenos <MdKeyboardDoubleArrowDown className='button__icon' size={27}/></a>
+                <a href='#about' className='button button--flex'>Conocenos <MdKeyboardDoubleArrowDown className='button__icon' size={27}/></a>
             </div>
             <div className='home__social'>
                 <span className='home__social-follow'>Sigenos en</span>

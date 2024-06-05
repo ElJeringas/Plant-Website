@@ -47,3 +47,15 @@
 .button--link:hover .button__icon{
     transform: translateX(.25rem);
 }
+
+@media screen and (min-width:992px) {
+    .about__img{
+        width: 380px;
+    }
+}
+
+@media screen and  (min-width:1200px){
+    .about__container{
+        column-gap: 7rem;
+    }
+  }

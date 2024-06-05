@@ -8,7 +8,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className='footer section'>
+    <footer className='footer section footer__section'>
         <div className='footer__container container grid'>
             <div className='footer__content'>
                 <i className='footer__logo-icon'><GiMonsteraLeaf size={22}/> An Anasha</i>
